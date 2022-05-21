@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Form</title>
-  <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <section class="section">
+      <h2 class="register"><span>Register</span></h2>
+      <p class="description">
+        Create your account. It's free and only takes a minute.
+      </p>
+      <form action="" class="form">
+        <div class="form-name">
+          <input
+            class="input name first-name"
+            type="text"
+            placeholder="First name"
+            required
+            autofocus
+          />
+          <input
+            class="input name last-name"
+            type="text"
+            placeholder="Last name"
+            required
+          />
+        </div>
+        <input class="input input-input" type="email" placeholder="Email" />
+        <input
+          class="input input-input"
+          type="password"
+          placeholder="Password"
+        />
+        <input
+          class="input input-input confirm-password"
+          type="password"
+          placeholder="Confirm Password"
+        />
+        <label for="" class="label"
+          ><input type="checkbox" type="checkbox" checked />
+          I accept the
+          <a href="#" class="link">Terms of Use</a>
+          &
+          <a href="#" class="link">Privacy Policy.</a>
+        </label>
+        <button href="#" class="btn">Register Now</button>
+      </form>
+    </section>
+    <p class="footer">
+      Already have an account? <a href="#" class="footer-link">Sing in</a>
+    </p>
+  </body>
 </html>

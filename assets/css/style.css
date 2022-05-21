@@ -1,0 +1,106 @@
+body {
+  background-color: #63738a;
+}
+:root {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: sans-serif;
+}
+.section {
+  margin: auto;
+  border-radius: 3px;
+  padding: 30px;
+  max-width: 390px;
+  max-height: 450px;
+  min-width: 200px;
+  min-height: 250px;
+  background-color: #f2f3f7;
+}
+.register {
+  padding: 15px;
+  padding-top: 0;
+  font-size: 30px;
+  overflow: hidden;
+  color: #595a5c;
+}
+.register span {
+  position: relative;
+}
+.register span::after {
+  display: block;
+  margin-right: 20px;
+  width: 100%;
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #d4d5d9;
+  top: 50%;
+  right: 100%;
+}
+.register span::before {
+  display: block;
+  margin-left: 20px;
+  width: 100%;
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #d4d5d9;
+  top: 50%;
+  left: 100%;
+}
+
+.description {
+  padding-bottom: 23px;
+  color: #959499;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.name {
+  max-width: 45%;
+}
+.input {
+  border-radius: 5px;
+  height: 2.3em;
+}
+.first-name {
+  float: left;
+}
+.last-name {
+  float: right;
+}
+.input::placeholder {
+  padding-left: 10px;
+}
+.input-input {
+  margin-top: 18px;
+  width: 100%;
+}
+.confirm-password {
+  margin-bottom: 1.5em;
+}
+.label {
+  float: left;
+}
+.link {
+  color: #469e47;
+  text-decoration: none;
+}
+.btn {
+  margin-top: 1.5em;
+  padding: 0.5em;
+  border: none;
+  border-radius: 3px;
+  width: 100%;
+  font-size: 20px;
+  background-color: #469e47;
+  color: white;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.footer {
+  margin-top: 1.2em;
+  color: white;
+}
+.footer-link {
+  color: white;
+}
